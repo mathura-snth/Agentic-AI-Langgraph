@@ -7,7 +7,14 @@ authors = [
     { name = "Mathura", email = "mathura.santhalingam@gmail.com" }
 ]
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "ipykernel>=6.31.0",
+    "langchain>=0.3.30",
+    "langchain-groq>=0.3.8",
+    "langgraph>=0.6.11",
+    "langsmith>=0.4.37",
+    "python-dotenv>=1.2.1",
+]
 
 [project.scripts]
 2-mcp-agents = "2_mcp_agents:main"
